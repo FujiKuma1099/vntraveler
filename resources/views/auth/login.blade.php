@@ -5,6 +5,19 @@
     <form method="POST" action="{{ route('login') }}">
         @csrf
 
+        <!-- Google Login -->
+        <div class="mt-4 text-center">
+            <a href="{{ route('google.login') }}" class="btn btn-info btn-block rounded-pill w-full">
+                <i class="fab fa-google me-2"></i> {{ __('Login with Google') }}
+            </a>
+        </div>
+
+        <!-- Divider -->
+        <div class="mt-4 text-center">
+            <span class="text-muted">{{ __('OR') }}</span>
+        </div>
+
+
         <!-- Email Address -->
         <div>
             <x-input-label for="email" :value="__('Email')" />

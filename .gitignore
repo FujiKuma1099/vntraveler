@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 /vendor/
 node_modules/
 npm-debug.log
@@ -30,6 +31,8 @@ Homestead.json
 .phpactor.json
 auth.json
 =======
+=======
+>>>>>>> 9c448f2713b31a0f6ac852d418e4497e2c179e2e
 /.phpunit.cache
 /node_modules
 /public/build
@@ -53,4 +56,7 @@ yarn-error.log
 /.nova
 /.vscode
 /.zed
+<<<<<<< HEAD
 >>>>>>> ebb6fd8 (First commit)
+=======
+>>>>>>> 9c448f2713b31a0f6ac852d418e4497e2c179e2e
